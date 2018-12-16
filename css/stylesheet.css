@@ -77,19 +77,19 @@ body {
 }
 
 #projects {
-	background: blue;
+	background-image: linear-gradient(to top right, #D300FF, #8100E8, #510DFF);
 	height: 25%;
 	width: 100%;
 }
 
 #about {
-	background: green;
+	background-image: linear-gradient(to top right, #510DFF, #0041FF, #0200E8);
 	height: 25%;
 	width: 100%;
 }
 
 #contact {
-	background: gray;
+	background-image: linear-gradient(to top right, #DC00FF, #8500E8, #510DFF, #8A8BE8);
 	height: 25%;
 	width: 100%;
 }
