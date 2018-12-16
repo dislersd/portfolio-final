@@ -56,3 +56,40 @@ a {
 html {
 	font-size: 62.5%;
 }
+
+/* Main CSS Start */
+
+body {
+	width: 100%;
+	max-width: 1440px;
+	height: 3000px;
+}
+
+.main-container {
+	height: 100%;
+	width: 100%;
+}
+
+#welcome {
+	background: black;
+	height: 25%;
+	width: 100%;
+}
+
+#projects {
+	background: blue;
+	height: 25%;
+	width: 100%;
+}
+
+#about {
+	background: green;
+	height: 25%;
+	width: 100%;
+}
+
+#contact {
+	background: gray;
+	height: 25%;
+	width: 100%;
+}
