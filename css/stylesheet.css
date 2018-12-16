@@ -70,11 +70,24 @@ body {
 	width: 100%;
 }
 
+
+
 #welcome {
 	background: black;
 	height: 25%;
 	width: 100%;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
+
+#welcome>h1 {
+	font-size: 4rem;
+}
+
+
 
 #projects {
 	background-image: linear-gradient(to top right, #D300FF, #8100E8, #510DFF);
