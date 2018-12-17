@@ -103,7 +103,8 @@ h1, h2, a, p {
 
 
 #projects {
-	background-image: linear-gradient(to top right, #D300FF, #8100E8, #510DFF);
+	/* background-image: linear-gradient(to top right, #D300FF, #8100E8, #510DFF); */
+	background-color: white;
 	height: 50vh;
 	width: 100%;
 	display: flex;
@@ -140,17 +141,62 @@ h1, h2, a, p {
 
 	border-radius: 20px;
 	border: 1px solid black;
+	box-shadow: 5px 10px 18px #888888;
 	
 }
 
 #about {
-	background-image: linear-gradient(to top right, #510DFF, #0041FF, #0200E8);
+	/* background-image: linear-gradient(to top right, #510DFF, #0041FF, #0200E8); */
+	background-color: black;
 	height: 50vh;
-	width: 100%;
+	width: 100vw;
+	color: white;
+	font-family: inherit;
+	font-size: inherit;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.4rem;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+#about>h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+ width: 100%;
+}
+
+#img-container{
+height: 90%;
+width:20%;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#img-container>img {
+	border-radius: 50%;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: auto;
+width: 200px;
+}
+
+#about-container {
+	height: 90%;
+	width:80%;
+	background-color: gray;
 }
 
 #contact {
 	background-image: linear-gradient(to top right, #DC00FF, #8500E8, #510DFF, #8A8BE8);
 	height: 50vh;
 	width: 100%;
+	display: none;
 }
+
