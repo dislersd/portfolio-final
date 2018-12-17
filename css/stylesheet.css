@@ -177,6 +177,7 @@ justify-content: center;
 }
 
 #img-container>img {
+	margin-top: 40px;
 	border-radius: 50%;
 border: 1px solid black;
 display: flex;
@@ -187,12 +188,34 @@ height: auto;
 width: 200px;
 }
 
+.context {
+	margin-top: 40px;
+	height: 40%;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4rem;
+}
+
 #about-container {
 	height: 90%;
 	width:80%;
 	background-color: gray;
+	display: flex;
+	flex-direction: row;
+	
+
 }
 
+#about-container>p {
+	margin-top: 40px;
+	width: 60%;
+
+}
+
+#about-container>ul {
+	width: 40%;
+	margin-top: 40px;
+}
 #contact {
 	background-image: linear-gradient(to top right, #DC00FF, #8500E8, #510DFF, #8A8BE8);
 	height: 50vh;
