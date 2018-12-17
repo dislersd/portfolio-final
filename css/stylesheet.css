@@ -64,7 +64,7 @@ html {
 body {
 	width: 100%;
 	max-width: 100vw;
-	height: 3000px;
+	height: 100vh;
 	background-color: white;
 }
 
@@ -86,7 +86,7 @@ h1, h2, a, p {
 
 #welcome {
 	background: black;
-	height: 30%;
+	height: 50vh;
 	width: 100%;
 	color: white;
 	display: flex;
@@ -104,7 +104,7 @@ h1, h2, a, p {
 
 #projects {
 	background-image: linear-gradient(to top right, #D300FF, #8100E8, #510DFF);
-	height: 25%;
+	height: 50vh;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -126,13 +126,13 @@ h1, h2, a, p {
 }
 
 #project1, #project2, #project3, #project4 {
-	height: 300px;
-	width: 40%;
+	height: 50%;
+	width: 20%;
 	background-color: white;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	
-	padding: 30px;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -145,12 +145,12 @@ h1, h2, a, p {
 
 #about {
 	background-image: linear-gradient(to top right, #510DFF, #0041FF, #0200E8);
-	height: 25%;
+	height: 50vh;
 	width: 100%;
 }
 
 #contact {
 	background-image: linear-gradient(to top right, #DC00FF, #8500E8, #510DFF, #8A8BE8);
-	height: 25%;
+	height: 50vh;
 	width: 100%;
 }
