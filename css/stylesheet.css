@@ -216,6 +216,17 @@ width: 200px;
 	width: 40%;
 	margin-top: 40px;
 }
+
+#about-container>li {
+	margin-bottom: 20px;
+	height: 100px;
+}
+
+.education {
+	width: 100px;
+	height: auto;
+	margin-left: 0;
+}
 #contact {
 	background-image: linear-gradient(to top right, #DC00FF, #8500E8, #510DFF, #8A8BE8);
 	height: 50vh;
