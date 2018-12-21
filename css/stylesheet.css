@@ -227,19 +227,23 @@ header nav li {
 
 /*education Section*/
 
+
+.education .grid li h5 {
+	font-size: 20px;
+	margin: 10px 0;
+}
 .education .grid li {
-	padding: 50px;
+	padding: 0;
 	flex-basis: 50%;
 	text-align: center;
+	
 }
 
-.education .grid li i {
-	color: #8c9eff;
-}
+
 
 .education .grid li h4 {
 	font-size: 30px;
-	margin: 25px 0;
+	margin: 10px 0;
 }
 
 @media (max-width: 800px) {
@@ -248,6 +252,19 @@ header nav li {
 		padding: 20px;
 	}
 }
+
+.education .grid>li>ul {
+	width: 50%;
+	columns: 2;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.education .grid>li>ul>li {
+	text-align: left;
+}
+
 
 /*about Section*/
 
