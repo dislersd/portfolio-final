@@ -1,3 +1,53 @@
+/*Meyer's CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /*General Styles*/
 
 * {
@@ -11,10 +61,11 @@ html {
 	color: #555;
 }
 
-ul,
-nav {
+ul, nav {
 	list-style: none;
 }
+
+
 
 
 a {
@@ -60,8 +111,12 @@ hr {
 	height: 3px;
 	background-color: #3f51b5;
 	border: 0;
+	
 	margin-bottom: 50px;
+	
 }
+
+
 
 section h3.title {
 	text-transform: capitalize;
@@ -115,6 +170,11 @@ header nav {
 
 header nav li {
 	margin: 0 15px;
+}
+
+header>nav>li:hover {
+	background-color: white;
+	color: #80a3db;
 }
 
 @media (max-width: 800px) {
@@ -242,9 +302,10 @@ header nav li {
 
 
 
-.education .grid li h4 {
+.education .grid li h4 a{
 	font-size: 30px;
 	margin: 10px 0;
+	color: white;
 	
 }
 
@@ -258,6 +319,12 @@ header nav li {
 		flex-basis: 100%;
 		padding: 20px;
 	}
+
+	.education .grid>li>ul {
+		display: none;
+		
+	}
+
 }
 
 .education .grid>li>ul {
@@ -289,13 +356,18 @@ header nav li {
 #img-container {
 	width: 20%;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 #text-container {
 	width: 80%;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	text-align: left;
 	align-items: center;
@@ -335,6 +407,10 @@ header nav li {
 
 	.about .author {
 		font-size: 14px;
+	}
+
+	#img-container {
+		display: none;
 	}
 }
 
