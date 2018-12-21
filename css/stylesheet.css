@@ -275,6 +275,11 @@ header nav li {
 	margin: 40px 0 25px;
 }
 
+#inner-about>img {
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
 @media (max-width: 800px) {
 	.about .quote {
 		font-size: 18px;
