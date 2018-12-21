@@ -44,7 +44,8 @@ section {
 }
 
 section:not(.hero):nth-child(even) {
-	background-color: #f5f5f5;
+	background-color: hsl(219, 30%, 18%);
+	color: white;
 }
 
 .grid {
@@ -234,7 +235,7 @@ header nav li {
 }
 .education .grid li {
 	padding: 0;
-	flex-basis: 50%;
+	flex-basis: 33%;
 	text-align: center;
 	
 }
@@ -244,6 +245,12 @@ header nav li {
 .education .grid li h4 {
 	font-size: 30px;
 	margin: 10px 0;
+	
+}
+
+.education .grid li h5 {
+
+	color: hsl(198, 60%, 50%)
 }
 
 @media (max-width: 800px) {
@@ -263,6 +270,7 @@ header nav li {
 
 .education .grid>li>ul>li {
 	text-align: left;
+	color: hsl(176, 68%, 64%);
 }
 
 
