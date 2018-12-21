@@ -303,7 +303,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background-color: #607d8b;
+	background-color: hsl(218, 28%, 13%);
 	color: #fff;
 	padding: 20px 0;
 }
