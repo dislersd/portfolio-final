@@ -399,6 +399,11 @@ header>nav>li:hover {
 	align-items: center;
 }
 
+#text-container>p {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 @media (max-width: 800px) {
 	.about .quote {
 		font-size: 18px;
