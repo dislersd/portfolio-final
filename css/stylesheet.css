@@ -272,6 +272,10 @@ header>nav>li:hover {
 	flex-basis: 70%;
 }
 
+#socialnetwork>a {
+	margin-top: 40px;
+}
+
 @media (max-width: 1100px) {
 	.projects .grid li.small,
 	.projects .grid li.large {
