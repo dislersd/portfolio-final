@@ -272,7 +272,7 @@ header>nav>li:hover {
 	flex-basis: 70%;
 }
 
-#socialnetwork>a {
+#socialnetwork>a, #linux>a, #responsive>a, #loganalysis>a {
 	margin-top: 40px;
 }
 
