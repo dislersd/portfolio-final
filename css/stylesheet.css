@@ -262,6 +262,16 @@ header>nav>li:hover {
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
+	animation: 1s fadein 0.5s forwards;
+	opacity: 0;
+	color: #fff;
+}
+
+@keyframes fadein {
+	100% {
+		opacity: 1;
+	}
+
 }
 
 .projects .grid li.small {
