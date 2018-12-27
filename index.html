@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-<body>
+<body onload="typeWriter()">
   
   <header>
     <h2><a href="index.html">LM</a></h2>
@@ -24,7 +24,7 @@
     <div class="background-image" style="background-color:hsl(218, 28%, 13%);"></div>
     <div class="hero-content-area">
       <h1>Louis Magdaleno</h1>
-      <h3>Software Engineer</h3>
+      <h3 id="changeme"></h3>
       <a href="mailto:buildthatapp@gmail.com" class="btn">Get in touch.</a>
     </div>
   </section>
@@ -148,5 +148,27 @@
     </ul>
   </footer>
 
+      <script>
+       
+
+      var i = 0;
+      var txt = ['Software Engineer.', 'Problem Solver.', 'Dragonslayer.'];
+      var speed = 10;
+
+     
+       function typeWriter() {
+         setTimeout(function(){
+          
+        if (i < txt.length) {
+          document.getElementById("changeme").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+        }, 200);  
+      }
+        
+      
+    
+      </script>
 </body>
 </html>
