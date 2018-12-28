@@ -424,12 +424,30 @@ header>nav>li:hover {
 		margin: 15px 0;
 	}
 
+	#inner-about {
+		width: 90%;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
 	.about .author {
 		font-size: 14px;
 	}
 
 	#img-container {
 		display: none;
+	}
+
+	#text-container>p {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		font-size: 1.0rem;
+		margin-left: 10%;
+		margin-right: 10%;
+		justify-content: center;
+		text-align: center;
 	}
 }
 
