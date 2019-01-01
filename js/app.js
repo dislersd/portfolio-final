@@ -1,4 +1,5 @@
-var canvas = document.getElementById('container');
+const background = () => {
+    var canvas = document.getElementById('container');
 var clone = document.getElementById('blurCanvasBottom');
 
 var cloneCtx = clone.getContext('2d');
@@ -110,3 +111,6 @@ function velocityInt(min,max)
 {
     return Math.random()*(max-min+1)+min;
 }
+}
+
+$(document).ready(background);
