@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/app.js"></script>
 </head>
 <body onload="typeWriter()">
   
@@ -20,14 +21,30 @@
     </nav>
   </header>
 
-  <section class="hero">
+  <!--<section class="hero">
     <div class="background-image" style="background-color:hsl(218, 28%, 13%);"></div>
     <div class="hero-content-area">
       <h1>Louis Magdaleno</h1>
       <h3 id="changeme"></h3>
       <a href="mailto:buildthatapp@gmail.com" class="btn">Get in touch.</a>
     </div>
-  </section>
+  </section>-->
+
+  
+<canvas class="container" id="container" role="main"></canvas>
+  <div class="content">
+    <h1 class="title">Louis Magdaleno</h1>
+    <p class="desc">Software Engineer.</p>
+     <ul class="contact">
+      <li><a href="mailto:buildthatapp@gmailcom">buildthatapp@gmail.com</a></li>
+        <li>
+          <a target="_top" href="https://www.linkedin.com/in/louis-magdaleno/">LinkedIn</a></li>
+        <li><a target="_top" href="https://github.com/louismagdaleno/">Github</a></li>
+      </ul>
+  </div>
+</div>
+<div class="blur blurTop"><canvas class="canvas"id="blurCanvasTop"></canvas></div>
+<div class="blur blurBottom"><canvas width="1000px" height="1000px" class="canvas" id="blurCanvasBottom"></canvas></div>
   
   <section class="projects">
     <h3 class="title">Projects:</h3>
